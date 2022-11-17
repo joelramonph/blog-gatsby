@@ -1,9 +1,14 @@
 import React from 'react'
+import Layout from '../componets/Layout'
 
-const tags = () => {
+const Tags = () => {
   return (
-    <div>tags</div>
+    <Layout>
+  
+   <h2>Tags</h2>
+  
+  </Layout>
   )
 }
 
-export default tags
+export default Tags

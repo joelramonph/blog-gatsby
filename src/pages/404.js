@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from '../componets/Layout'
-const About = () => {
+const Error = () => {
   return (
     <Layout>
-
-    <h2>I am About</h2>
-    
-    </Layout>
+  
+   <h2>Error</h2>
+  
+  </Layout>
   )
 }
 
-export default About
+export default Error
