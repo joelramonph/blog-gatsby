@@ -8,6 +8,19 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+
+  siteMetadata: {
+   title: "Simply Recipes",
+   description: "Nice and clean recipes sites",
+   author: "@joelparra",
+   person: {name: "Joel", age: 52},
+   simpleData: ["item 1", "item 2"],
+   complexData: [
+     {name: "Joel", age: 52},
+     {name: "Stephani", age: 12},
+   ],
+
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
