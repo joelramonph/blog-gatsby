@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Link } from 'gatsby'
+import React, { useState } from 'react' //importa react y el hook
+import { Link } from 'gatsby' //importa link 
 import {FiAlignJustify} from 'react-icons/fi'
 import logo from '../assets/images/logo.svg'
 const Navbar = () => {

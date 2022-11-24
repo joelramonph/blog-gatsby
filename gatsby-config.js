@@ -13,11 +13,11 @@ module.exports = {
    title: "Simply Recipes",
    description: "Nice and clean recipes sites",
    author: "@joelparra",
-   person: {name: "Joel", age: 52},
+   person: {name: "Joel", age:52},
    simpleData: ["item 1", "item 2"],
    complexData: [
-     {name: "Joel", age: 52},
-     {name: "Stephani", age: 12},
+     {name: "Joel", age:52},
+     {name: "Stephani", age:12},
    ],
 
   },
@@ -26,6 +26,13 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
   
   ],
 }
